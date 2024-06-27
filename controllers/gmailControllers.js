@@ -3,11 +3,11 @@
  *  gauravtiwari282001@gmail.com
  *  6376013956
  * This file is used to define the gmailControllers.
- * the first part handles all the initialization and setup of the gmail controllers.
- * the second part handles the cron job to check for new emails and enqueue them.
- * the third part handles the categorization and ai response generation.
- * the fourth part handles the email sending.
- * the fifth part handles the reading of the email content.
+ * The first part handles all the initialization and setup of the gmail controllers.
+ * The second part handles the cron job to check for new emails and enqueue them.
+ * The third part handles the categorization and ai response generation.
+ * The fourth part handles the email sending.
+ * The fifth part handles the reading of the email content.
  */
 
 const axios = require("axios");

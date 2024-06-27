@@ -25,11 +25,11 @@ git clone https://github.com/GauravTiwaritp/ReachinBoxAssignment.git
 cd ReachinBoxAssignment
 ```
 
-## how to run-
+## How to run-
 
-# first add constants.js and .env file in the root directory
+# First add constants.js and .env file in the root directory
 
-# then run the docker instance for redis
+# Then run the docker instance for redis
 
 ```bash
 docker run -d --name redis_instance -p 127.0.0.1:6379:6379 redis
@@ -47,3 +47,5 @@ npm install
 ```bash
 node index.js
 ```
+
+# At this stage it will be reply to all the emails of my inbox not for any other user but you can see the working of it on console as important points are printed over there.
